@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+.App-header {
+    /*border: 1px solid black;*/
+    width: 1260px;
+    height: 3500px;
+}
+
+.App-menu {
+    text-align: center;
+    background-color: rgba(41, 67, 96, 1);
+    color: white;
+    width: 1440px;
+    height: 50px;
+}
+
+.bs {
+    position: relative;
+    right: 550px;
+    top: 40px;
+}
+
+#btn {
+    position: relative;
+    top: 10px;
+}
+
+.App-content {
+    position: relative;
+    right: 70px;
+    top: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+a {
+    margin: 20px;
+}
+
+#ba {
+    position: relative;
+    right: 330px;
+    top: 160px;
+    width: 488px;
+    font-size: 18px;
+}
+
+.App-btn {
+    position: relative;
+    top: 5px;
+    left: 400px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#App-id {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgba(5, 97, 163, 1);
+    border-radius: 6px;
+    left: 80px;
+}
+
+#App-id:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(10, 10, 10, 0.30);
+}
+
+#app-id {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(5, 97, 163, 1);
+    border: none;
+    left: 100px;
+    color: white;
+}
+
+#app-id:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App-p {
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+#english {
+    position: relative;
+    width: 480px;
+    font-size: 36px;
+    top: 130px;
+    right: 330px;
+}
+
+.learn {
+    position: relative;
+    bottom: 210px;
+    overflow: hidden;
+    left: 300px;
+}
+
+#app {
+    position: relative;
+    left: 550px;
+    top: 190px;
+    width: 295px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: rgba(5, 97, 163, 1);
+    color: white;
+    font-size: 15px;
+}
+
+
