@@ -21,7 +21,7 @@
 
 .bs {
     position: relative;
-    right: 550px;
+    right: 580px;
     top: 40px;
 }
 
@@ -56,16 +56,15 @@ a {
     left: 400px;
     font-size: 15px;
     text-align: center;
-
 }
 
 #App-id {
     position: relative;
     width: 130px;
     height: 40px;
-    border: 1px solid rgba(5, 97, 163, 1);
+    border: 2px solid rgba(5, 97, 163, 1);
     border-radius: 6px;
-    left: 80px;
+    left: 40px;
 }
 
 #App-id:hover {
@@ -80,7 +79,7 @@ a {
     border-radius: 6px;
     background-color: rgba(5, 97, 163, 1);
     border: none;
-    left: 100px;
+    left: 60px;
     color: white;
 }
 
@@ -101,18 +100,22 @@ a {
     font-size: 36px;
     top: 130px;
     right: 330px;
+    font-weight: 600;
 }
 
 .learn {
     position: relative;
-    bottom: 210px;
+    width: 692px;
+    height: 528px;
+    bottom: 250px;
     overflow: hidden;
-    left: 300px;
+    left: 270px;
 }
 
-#app {
+.app {
     position: relative;
-    left: 550px;
+    text-align: center;
+    right: 428px;
     top: 190px;
     width: 295px;
     height: 46px;
@@ -120,6 +123,253 @@ a {
     background-color: rgba(5, 97, 163, 1);
     color: white;
     font-size: 15px;
+    /*padding: 0.8em 1.5em;*/
 }
+
+#btn {
+    position: relative;
+    top: 10px;
+}
+
+.app:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.app-main {
+    position: relative;
+    bottom: 250px;
+}
+
+.App-main {
+    position: relative;
+    bottom: 90px;
+}
+
+.h6 {
+    width: 1440px;
+    height: 280px;
+    top: 787px;
+    background-color: rgba(183, 204, 225, 1);
+}
+
+#nas {
+    position: relative;
+    bottom: 10px;
+    font-size: 36px;
+    width: 718px;
+    height: 43px;
+    font-weight: 490;
+}
+
+#uz {
+    position: relative;
+    width: 839px;
+    height: 56px;
+    font-size: 23px;
+    top: 10px;
+}
+
+#plan {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    width: 839px;
+    height: 56px;
+    font-size: 23px;
+}
+
+.app-btn {
+    position: relative;
+    text-align: center;
+    width: 295px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: rgba(5, 97, 163, 1);
+    color: white;
+    font-size: 15px;
+}
+
+.app-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.app-st {
+    position: relative;
+    bottom: 100px;
+    right: 260px;
+}
+
+#br {
+    position: relative;
+    bottom: 300px;
+    width: 646px;
+    height: 43px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#gram {
+    position: relative;
+    bottom: 250px;
+    right: 400px;
+    border: 1px solid black;
+    width: 387px;
+    height: 391px;
+    border-radius: 6px;
+
+}
+
+#gra {
+    position: relative;
+    bottom: 640px;
+    border: 1px solid black;
+    width: 387px;
+    height: 391px;
+    border-radius: 6px;
+
+}
+
+#grad {
+    position: relative;
+    left: 400px;
+    bottom: 1032px;
+    border: 1px solid black;
+    width: 387px;
+    height: 391px;
+    border-radius: 6px;
+
+}
+
+
+#pnpm {
+    position: relative;
+    left: 285px;
+    top: 21px;
+    color: white;
+    width: 79px;
+    height: 32px;
+    background-color: rgba(127, 164, 202, 1);
+
+}
+
+.ram {
+    width: 149px;
+    height: 149px;
+}
+
+.app-bat {
+    position: relative;
+    top: 90px;
+    text-align: center;
+    width: 235px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: rgba(5, 97, 163, 1);
+    color: white;
+    font-size: 15px;
+}
+
+.app-bat:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.a1 {
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+    width: 183px;
+    height: 22px;
+
+}
+
+.a3 {
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-size: 18px;
+    width: 183px;
+    height: 22px;
+
+}
+
+.a4 {
+    position: relative;
+    text-align: center;
+    top: 40px;
+    font-size: 18px;
+    width: 183px;
+    height: 22px;
+
+}
+
+.a2 {
+    position: relative;
+    top: 50px;
+    font-size: 22px;
+    width: 183px;
+    height: 22px;
+
+}
+
+.blue {
+    margin-top: -250px;
+    width: 343px;
+    height: 187px;
+    background-color: rgba(207, 217, 253, 1);
+}
+
+.gray {
+    margin-top: -250px;
+    width: 343px;
+    height: 187px;
+    background-color: rgba(255, 234, 207, 1);
+}
+
+.white {
+    margin-top: -250px;
+    width: 343px;
+    height: 187px;
+    background-color: rgba(207, 220, 229, 1);
+}
+
+#grata {
+    position: relative;
+    bottom: 1000px;
+    right: 400px;
+    border: 1px solid black;
+    width: 387px;
+    height: 391px;
+    border-radius: 6px;
+
+}
+
+#people {
+    position: relative;
+    left: 400px;
+    bottom: 1780px;
+    border: 1px solid black;
+    width: 387px;
+    height: 391px;
+    border-radius: 6px;
+
+}
+
+#gama {
+    position: relative;
+    bottom: 1390px;
+    border: 1px solid black;
+    width: 387px;
+    height: 391px;
+    border-radius: 6px;
+
+}
+
+
+
+
+
 
 
