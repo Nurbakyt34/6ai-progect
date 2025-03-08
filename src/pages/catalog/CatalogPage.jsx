@@ -4,22 +4,24 @@ import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import LessonCard from '../../components/lesson/LessonCard'
 import { supabase } from '../../supabase'
+import { useParams } from 'react-router'
 
 const CatalogPage = () => {
+    const { name } = useParams()
     // const { lessons } = useSelector((state) => state.lessons)
     const [lessons, setLessons] = useState([])
 
-    const getData = async () => {
+    const getData = async (catalogName = null) => {
         let { data } = await supabase
-            .from('grammar_lessons')
+            .from(catalogName)
             .select('*')
         console.log(data);
         setLessons(data)
     }
 
     React.useEffect(() => {
-        getData()
-    }, [])
+        getData(name)
+    }, [name])
 
     if (lessons.length === 0) {
         return <h2>Loading...</h2>
