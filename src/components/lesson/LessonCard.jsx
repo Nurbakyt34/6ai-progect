@@ -1,7 +1,10 @@
 import { useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
+
 
 
 const LessonCard = ({ data }) => {
+    const { t } = useTranslation();
     const { level, level_name, image, name } = data
     const navigate = useNavigate() // Замыкание
     return (
@@ -18,7 +21,7 @@ const LessonCard = ({ data }) => {
                     navigate(`/videos`)
                 }}
             >
-                Перейти к уроку
+                {t("go_to_lesson")}
             </button>
         </div>
     );

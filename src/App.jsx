@@ -4,6 +4,7 @@ import ReviewsPage from "./pages/review/ReviewsPage";
 import { BrowserRouter, Routes, Route } from 'react-router'
 import HomePage from './pages/home/HomePage'
 import Layout from './layout/Layout'
+import QuizPage from "./components/test/QuizPage";
 
 const App = () => {
 
@@ -13,11 +14,11 @@ const App = () => {
         <Route path={"/"} element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="/catalog/:name" element={<CatalogPage />} />
-          <Route path="/review" element={<ReviewsPage />} />
+          <Route path="/reviews" element={<ReviewsPage />} />
+          <Route path="/quiz" element={<QuizPage />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-  )
+    </BrowserRouter>)
 }
 
-export default App
+export default App;
